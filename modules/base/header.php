@@ -12,16 +12,19 @@
         <?php
         $admin_or_user = $_SESSION['log_type'];
         if ($admin_or_user == 0) {
-            echo '<a class="nav-item nav-link active" href="?main=admin">Utilizador<span class="sr-only">(current)</span></a>';
+            echo '<a class="nav-item nav-link active" href="?main=user">Utilizador '.$admin_or_user.'<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="?main=editar_perfil">Editar Perfil<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Ver Salários</a>
+            </div>
+        </div>';
         }
         else {
-            echo '<a class="nav-item nav-link active" href="?main=utilizador">Admin<span class="sr-only">(current)</span></a>';   
+            echo '<a class="nav-item nav-link active" href="?main=admin">Admin<span class="sr-only">(current)</span></a>';
+            
         }
         ?>
       
-        <a class="nav-item nav-link" href="#">Features</a>
-        </div>
-    </div>  
+ 
     </nav>
 </div>
 

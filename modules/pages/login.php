@@ -25,10 +25,12 @@
                     if (isset($_POST["login"])) {
                         $nome = $_POST["nome"];
                         $password = $_POST["password"];
-                        validar_login($nome, $password);
+                        $id_user = validar_login($nome, $password);
                     }
+                    
+                    echo $id_user;
+                    $_POST["id_user"] = $id_user;
 
-                    echo $_SESSION["log_type"];
                 ?>
 
                 

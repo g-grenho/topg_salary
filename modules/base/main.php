@@ -9,6 +9,9 @@
         case 'utilizador':
             include "modules/pages/painel_utilizador.php";
             break;
+        case 'editar_perfil':
+            include "modules/pages/editar_perfil.php";
+            break;
         default:
             include 'modules/pages/login.php';
             break;

@@ -10,7 +10,8 @@
                     <li class="list-group-item">Mês: Fevereiro 2023 | Salário Bruto: 2700.00 | Salário Líquido: 2150.00</li>
                     <!-- Adicione mais itens da lista conforme necessário -->
                 </ul>
-                <a href="index.php" class="btn btn-secondary btn-block">Sair</a>
+                <a href="exit.php" class="btn btn-secondary btn-block">Sair</a>
             </div>
         </div>
     </div>
+    
