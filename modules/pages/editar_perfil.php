@@ -9,7 +9,7 @@ echo '<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8 mt-5">
             <h1 class="text-center">EDITAR PERFIL</h1>
-            <form>
+            <form method="post">
         <div class="form-group row">
             <label for="inputNome" class="col-sm-2 col-form-label">Nome</label>
             <div class="col-sm-10">
